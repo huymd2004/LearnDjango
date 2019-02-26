@@ -19,4 +19,8 @@ from django.urls import include, path
 urlpatterns = [
     path('polls/', include('polls.urls')),
     path('admin/', admin.site.urls),
+    path("user-auth/", include("user_auth.urls")),
+    # url(r'^user-auth/', include('user_auth.urls')),
+    path("file-upload/", include("file_uploader.urls")),
+    # url(r'^file-upload/', include('file_uploader.urls'))
 ]

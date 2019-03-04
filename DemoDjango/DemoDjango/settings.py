@@ -33,6 +33,7 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     'file_uploader.apps.FileUploaderConfig',
     'user_auth.apps.UserAuthConfig',
+    'pagination.apps.PaginationConfig',
     'polls.apps.PollsConfig',
     'django.contrib.admin',
     'django.contrib.auth',

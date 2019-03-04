@@ -23,4 +23,6 @@ urlpatterns = [
     # url(r'^user-auth/', include('user_auth.urls')),
     path("file-upload/", include("file_uploader.urls")),
     # url(r'^file-upload/', include('file_uploader.urls'))
+    path("pagination/", include('pagination.urls')),
+    # url(r'^pagination/', include('pagination.urls')),
 ]
